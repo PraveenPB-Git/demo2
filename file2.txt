@@ -1,0 +1,19 @@
+    1  git --version
+    5  mkdir git-test
+    8  git --version
+   14  cd git-test
+   18  git status
+   19  git init
+   20  git status
+   21  git add file1.txt
+   22  git status
+   23  git commit -m "file 1"
+   24  git config --global user.email "haipraveenpb@gmail.com"
+   25  git config --global user.name "Praveen"
+   26  git commit -m "File1"
+   27  git status
+   28  git log
+   30  git log --oneline
+   31  git diff file1.txt
+   32  git diff --staged file1.txt
+   34  history | grep git > file2.txt
